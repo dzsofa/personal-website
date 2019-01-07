@@ -5,12 +5,37 @@ html {
 h1 {
   text-align: center;
   font-size: 40px;
-  font-family: monospace;
+  font-family: 'Raleway', sans-serif;
   color: rgb(0, 0, 0);
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
 }
 
 img {
   max-width: 70%;
   display: block;
   margin: 0 auto;
+}
+
+.contact {
+  display: grid;
+  width: 40vw;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 3rem auto 0 auto;
+  background: transparent;
+  grid-gap: 0.5em;
+}
+
+div, a{
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+.contact-value {
+  font-size: 20px;
 }
