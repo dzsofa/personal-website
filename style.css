@@ -9,9 +9,15 @@ h1 {
   color: rgb(0, 0, 0);
 }
 
-h2 {
+p {
   font-family: 'Raleway', sans-serif;
   text-align: center;
+  font-weight: normal;
+  max-width: 80vw;
+  margin: auto;
+  color: black;
+  font-size: 1.2rem;
+  margin-top: 1rem;
 }
 
 img {
@@ -26,7 +32,7 @@ img {
   grid-template-columns: repeat(3, 1fr);
   margin: 3rem auto 0 auto;
   background: transparent;
-  grid-gap: 0.5em;
+  grid-gap: 0.5rem;
 }
 
 div, a{
