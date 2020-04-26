@@ -1,19 +1,38 @@
 html {
   background-color: antiquewhite;
+  font-family: 'Libre Baskerville', serif;
+  line-height: 1.7em;
 }
 
 h1 {
   font-size: 68px;
+  margin-bottom: 5rem;
+  line-height: 68px;
 }
 
 .title {
   text-align: center;
   font-weight: normal;
   font-family: 'Fredericka the Great', cursive;
-
 }
 
-section {
+.ingredients-container {
+  transform: translate(-1rem, -1rem);
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+  width: 60%;
+  margin-bottom: 3rem;
+}
+
+.ingredients {
+  background-color: ghostwhite;
+  border: honeydew 1px solid;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.recipe {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,7 +43,6 @@ article {
   margin-bottom: 3rem;
 }
 
-.recipe img {
-  /* margin-bottom: 2rem; */
+img {
   width: 100%;
 }
