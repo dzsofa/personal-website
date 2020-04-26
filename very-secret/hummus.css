@@ -26,7 +26,9 @@ h1 {
 
 .ingredients {
   background-color: ghostwhite;
-  border: honeydew 1px solid;
+  padding-left: .5rem;
+  padding-right: .5rem;
+  border: slategray 1px solid;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -36,6 +38,12 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.sources {
+  margin-left: 2rem;
+  margin-bottom: 0;
+  font-size: .9rem;
 }
 
 article {
