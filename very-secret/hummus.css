@@ -63,7 +63,7 @@ img {
 
 @media (max-width: 1100px) {
 
-  .ingredients-container {
+  .ingredients {
     width: 90%;
     flex-direction: column;
   }
